@@ -1,0 +1,97 @@
+.complaint-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.complaint-page h1, h2 {
+  text-align: center;
+}
+
+.complaint-page h1 {
+  font-size: 2.3rem;
+}
+
+.complaint-page h2 {
+  font-size: 1.8rem;
+  border-bottom: 2px grey solid;
+}
+
+.complaint-container {
+  background-color: white;
+  padding: 2rem;
+  width : 100%;
+  max-width : 600px;
+  box-sizing: border-box;
+}
+
+.complaint-page .input-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.complaint-page .input-section textarea {
+  width: 100%;
+  border: 2px rgb(207, 207, 207) solid;
+  outline: none;
+  border-radius: 5px;
+}
+
+.complaint-page .input-section label {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.complaint-page form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.complaint-page form button {
+  align-self: center;
+  padding: 0.7rem 2rem;
+  cursor: pointer;
+  background-color: #479759;
+  border : none;
+  color: white;
+  border-radius: 5px;
+  padding: 1rem 3rem;
+}
+
+.complaint-page .input-section textarea:focus {
+  border: 2px rgb(156, 156, 156) solid;
+}
+
+.complaint-page .select-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.complaint-page .select-container label {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.complaint-page .select-container select {
+  width: 20%;
+  border: 2px rgb(207, 207, 207) solid;
+  outline: none;
+}
+
+.complaint-page .select-container select:focus {
+  border: 2px rgb(156, 156, 156) solid;
+}
+
+.complaint-container .success-msg{
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 600;
+    background-color: #e1edde;
+    padding: 0.5rem;
+    color: rgb(92, 92, 92);
+    border-radius: 5px;
+}

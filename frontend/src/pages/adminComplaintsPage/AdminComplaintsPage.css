@@ -1,0 +1,53 @@
+
+.table-section{
+    background-color: white;
+    padding: 2rem;
+}
+
+.admin-page h1{
+    text-align: center;
+    font-size: 3rem;
+    border-bottom: 2px rgb(212, 211, 211) solid;
+}
+
+.table-section h2{
+    font-size: 2.2rem;
+    font-weight: 700;
+    border-bottom: 2px rgb(211, 211, 211) solid;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 1.6rem;
+  background-color: white;
+  border-radius: 10px;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #dddddd;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.select-container{
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.select-container select{
+    width: 50%;
+    border: 2px solid grey;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    outline: none;
+}

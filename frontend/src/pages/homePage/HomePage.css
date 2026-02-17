@@ -1,0 +1,85 @@
+.home-page {
+  text-align: center;
+}
+
+.home-page button {
+  border-radius: 3px;
+}
+
+.home-page h1 {
+  font-size: 2.5rem;
+  border-bottom: 1px rgb(194, 194, 194) solid;
+}
+
+.home-page .sections h2 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  border-bottom: 1px rgb(219, 219, 219) solid;
+}
+
+.home-page .sections h3 {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.home-page .sections {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+.send-section {
+  background-color: white;
+  max-width: 400px;
+  width: 100%;
+  padding: 2rem;
+}
+
+.send-complaint-btn {
+  background-color: #479858;
+  border: none;
+  color: white;
+  padding: 0.8rem 1.2rem;
+  cursor: pointer;
+}
+
+.admin-passwrod-section {
+  background-color: white;
+  max-width: 400px;
+  width: 100%;
+  padding: 2rem;
+}
+
+.admin-passwrod-section form label {
+  font-size: 1.3rem;
+  padding-right: 1rem;
+  font-weight: 500;
+}
+
+.admin-passwrod-section form input {
+  font-size: 1.6rem;
+  padding-right: 1rem;
+  border-radius: 5px;
+  border: rgb(189, 189, 189) 2px solid;
+  outline: none;
+}
+
+.admin-passwrod-section form input:focus {
+  border: rgb(151, 151, 151) 2px solid;
+}
+
+.admin-passwrod-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.admin-passwrod-section form button {
+  background-color: #2a69bf;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.2rem;
+  cursor: pointer;
+}
