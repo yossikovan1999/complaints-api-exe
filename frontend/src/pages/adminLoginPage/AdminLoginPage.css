@@ -1,0 +1,75 @@
+.admin-login-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    max-width: 600px;
+    width: 100%;
+    background-color: white;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.admin-login-page h1{
+    text-align: center;
+    font-size: 3rem;
+    border-bottom: 2px rgb(212, 211, 211) solid;
+    width: 100%;
+}
+
+.admin-login-page h2{
+    font-size: 2.2rem;
+    font-weight: 700;
+    border-bottom: 2px rgb(211, 211, 211) solid;
+    width: 100%;
+}
+
+.admin-login-page form label {
+  font-size: 1.3rem;
+  padding-right: 1rem;
+  font-weight: 500;
+}
+
+.admin-login-page form input {
+  font-size: 1.6rem;
+  padding-right: 1rem;
+  border-radius: 5px;
+  border: rgb(189, 189, 189) 2px solid;
+  outline: none;
+}
+
+.admin-login-page form input:focus {
+  border: rgb(151, 151, 151) 2px solid;
+}
+
+.admin-login-page form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.admin-login-page form button {
+  background-color: #2a69bf;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.2rem;
+  cursor: pointer;
+}
+
+.error-container{
+    background-color: #ffcdd2;
+    color: black;
+    width: 100%;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 1.4rem;
+    box-sizing: border-box;
+    text-align: center;
+
+}

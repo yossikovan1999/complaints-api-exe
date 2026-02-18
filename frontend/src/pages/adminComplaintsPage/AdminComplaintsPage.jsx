@@ -10,11 +10,16 @@ const AdminComplaintsPage = () => {
 
   const [messages, setMessages] = useState([]);
   const [selected, setSelected] = useState("all");
-  
-  function getMessages(){
-    
-  }
 
+  function getMessages() {
+    if (selected === "all") {
+      return messages;
+    }
+
+    return messages.filter(
+      (obj) => obj.category?.toLowerCase() === selected.toLocaleLowerCase()
+    );
+  }
 
   useEffect(() => {
     async function getData() {
@@ -77,7 +82,7 @@ const AdminComplaintsPage = () => {
           </thead>
 
           <tbody>
-            {messages.map((obj) => {
+            {getMessages().map((obj) => {
               return (
                 <tr key={obj["_id"]}>
                   <td>{obj.category}</td>
